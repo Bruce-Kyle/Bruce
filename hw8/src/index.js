@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import App from './App';
-import LogIn from './practice/hw7';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import PW from './PW';
+import SI from './Signin';
+import EM from './Email';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LogIn/>
+    <EM />
+    <PW />
+    <SI />
   </React.StrictMode>
 );
 
